@@ -10,7 +10,12 @@ body {
     font-weight: 400;
 }
 
-/* .H1 *****************************/
+p {
+    line-height: 24px;
+    font-size: 16px;
+}
+
+/* H1 *****************************/
 h1 {
     color: hsl(24, 5%, 18%);
     /*fix font fam*/
@@ -18,11 +23,19 @@ h1 {
     font-weight: 400;
 }
 
-/* .H2 *****************************/
+/* H2 *****************************/
 h2 {
     color: hsl(14, 45%, 36%);
     font-family: "Young Serif", serif;
 
+}
+
+/* .UL, OL *****************************/
+ul, ol {
+    list-style-position: outside;
+    line-height: 30px;
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
 }
 
 /* .CARD *****************************/
@@ -44,17 +57,23 @@ h2 {
 
 /* .IMG-HEAD *****************************/
 .img-head {
-    height: auto;
     width: 100%;
+    height: auto;
     border-radius: 15px;
 }
-/* .PREP-DIV *****************************/
+/* .PREP-DIV 
+dots further to left
+dots smaller
+sizing of box bg
+increased spacing between bullets *****************************/
 .prep-div {
     background-color: hsl(330, 100%, 98%);
-    height: 7rem;
+    height: 100%;
     width: fill;
     border: 12px solid hsl(330, 100%, 98%);
     border-radius: 15px;
+    padding: 10px;
+    line-height: 24px;
 }
 
 /* .PREP-P *****************************/
