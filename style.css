@@ -1,6 +1,5 @@
 
 /* BODY *****************************/
-/* ++ adjusst body styles*/
 body {
     color: hsl(30, 10%, 34%);
     background-color: hsl(30, 18%, 87%);
@@ -9,7 +8,7 @@ body {
     font-family: Outfit, sans-serif;
     font-weight: 400;
 }
-
+/* P *****************************/
 p {
     line-height: 24px;
     font-size: 16px;
@@ -69,7 +68,7 @@ hr {
     height: auto;
     border-radius: 15px;
 }
-/* .PREP-DIV 
+/* .PREP-DIV ++git 
 dots further to left
 dots smaller
 sizing of box bg
@@ -96,17 +95,20 @@ increased spacing between bullets *****************************/
     font-weight: 600;
 }
 
+/* .TABLE *****************************/
 .table {
     padding-bottom: 40px;
     line-height: 40px;
 }
 
+/* .NUTRITION *****************************/
 .nutrition {
     margin-left: 4%;
     float: left;
     width: 50%;
 }
 
+/* .AMOUNT *****************************/
 .amount {
     float: left;
     width: auto;
