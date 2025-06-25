@@ -1,3 +1,7 @@
+/* NEXT ****************************
+
+Fix markers on lists -- possibly use a div or span element?
+*****************************/
 
 /* BODY *****************************/
 body {
@@ -28,13 +32,26 @@ h2 {
     font-family: "Young Serif", serif;
 }
 
-/* UL, OL *****************************/
+/* UL, OL, LI *****************************/
 ul, ol, li {
     list-style-position: outside;
     line-height: 30px;
-    color: hsl(30, 10%, 34%);
     font-size: 16px;
     justify-items: normal;
+}
+
+/* OL *****************************/
+ol {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+/* LI 
+Makes markers match color of parent
+*****************************/
+li {
+    color: inherit;
+    font-weight: inherit;
 }
 
 /* HR *****************************/
@@ -77,22 +94,45 @@ increased spacing between bullets *****************************/
     background-color: hsl(330, 100%, 98%);
     height: 100%;
     width: fill;
-    border: 12px solid hsl(330, 100%, 98%);
     border-radius: 15px;
-    padding: 10px;
-    line-height: 24px;
-}
-
-/* .PREP-P *****************************/
-.prep-p {
     color: hsl(332, 51%, 32%);
-    font-display: block;
-    font-weight: 700;
+    padding: 25px 25px 10px 25px;
 }
 
-/* .LI-BOLD *****************************/
+/* .PREP-P 
+Formatting for Preparation time header
+*****************************/
+.prep-p {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* .LI-THIN 
+Sets unbold parts of Instructions
+*****************************/
+.li-thin {
+    font-weight: 400;
+}
+
+/* .LI-BOLD 
+Sets bold words within Preparation time
+*****************************/
 .li-bold {
     font-weight: 600;
+}
+
+/* .BLACK 
+Sets color back to default text color ++ change name
+*****************************/
+.black {
+    color: hsl(30, 10%, 34%);
+}
+
+/* .ING-LIST 
+Sets marker color
+*****************************/
+#ing-list {
+    color: hsl(14, 45%, 36%);
 }
 
 /* .TABLE *****************************/
