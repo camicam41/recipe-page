@@ -76,6 +76,7 @@ Set width
 hr {
     width: 50%;
     color: hsl(30, 18%, 87%);
+    background-color: hsl(30, 18%, 87%);
 }
 
 /* .CARD 
