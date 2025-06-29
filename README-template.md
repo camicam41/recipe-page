@@ -20,8 +20,11 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## Overview
 
-### Screenshot
+### The Challenge
+The challenge was to build a recipe page based on the desktop and mobile design images provided and to try and make a replica that looks as close to the original as possible.
 
+### Screenshot
+++
 ![](./screenshot.jpg)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
@@ -34,71 +37,36 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here ++](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here ++](https://your-live-site-url.com)
 
 ## My process
+I started building with the html document, and added as much as I expected to add there. This included using the bold element to bold words where the font weight didn't have semantic significance, adding headers, creating lists and list items, and adding div and span elements as needed. I also added the header image and created class names for elements when I anticipated needing them. There were a few things that I would need to modify later, but this provided me with the basic structure of what I would need for the project.
+
+I took much more time with the CSS document. Some things were quick, like altering font weight/size/color, background colors, and the header's height and width, but other parts were more challenging. In particular, adjusting margins, padding, and borders took longer, due to having to experiment to see what looked closest to the original. I had to do quite a bit of research for the table at the bottom as that wasn't something I'd done before. Adjusting the list markers to be the correct color and have the correct spacing and sizing was the most difficult, and there were some parts that I still haven't been able to achieve.
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- Visual Studio Code
+- Microsoft Live Preview
+- [Outfit](https://fonts.google.com/specimen/Outfit) - Font 1
+- [Young Serif](https://fonts.google.com/specimen/Young+Serif) - Font 2
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+I learned a great deal about adjusting marker styling by utililzing a combination of CSS and html. Throughout the process, I was also able to gain insight regarding how div and span elements can be used, and I learned how to apply some of my previous CSS knowledge to create a table. It was also great practice to develop my attention to details - throughout the project, I noticed more and more minute parts of the initial design to try and replicate.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+In future projects, I want to continue to work on my efficiency in applying the CSS and HTML tools I acquire. I'd like to streamline my process and be able to more accurately visualize project outcomes from the start.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Along with this, there were parts of this project which I did not completely succeed in. Specifically, the distance between the markers and the list item text was something that I struggled with for a long time. I was able to figure out how to fix this for the ordered list, but ran into issues utilizing the same solution for the unordered lists, and I'm still not sure why that is. I also noticed that the markers on the original are much smaller than mine. I know this could be achieved by utilizing an original image for the markers, but I don't believe that was the caase here, as there was no asset provided for the markers. Alternatively, altering the font size of the list/list items should change the size of the markers, but when I tried this, it offset the alignment with the resized text for the same list item.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [W3 Schools CSS Tutorial](https://www.w3schools.com/css/) - I utilized this website for reference whenever I was utilizing unfamiliar styling and to correct syntax errors.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- GitHub - [@camicam41](https://github.com/camicam41)
+- Frontend Mentor - [@camicam41](https://www.frontendmentor.io/profile/camicam41)
