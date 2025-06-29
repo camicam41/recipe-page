@@ -1,106 +1,129 @@
-/* NEXT ****************************
-
-Fix markers on lists -- possibly use a div or span element?
+/* BODY 
+Set default body color
+Set page background color
+Set default font family and font weight
 *****************************/
-
-/* BODY *****************************/
 body {
     color: hsl(30, 10%, 34%);
     background-color: hsl(30, 18%, 87%);
-    height: 100vh;
-    width: 100vw;
     font-family: Outfit, sans-serif;
     font-weight: 400;
 }
-/* P *****************************/
+/* P 
+For paragraph elements,
+Set line height
+*****************************/
 p {
     line-height: 24px;
-    font-size: 16px;
 }
 
-/* H1 *****************************/
+/* H1 
+For Header 1,
+Set font color
+Set font family
+Set font weight
+*****************************/
 h1 {
     color: hsl(24, 5%, 18%);
-    /*fix font fam*/
     font-family: "Young Serif", serif;
     font-weight: 400;
 }
 
-/* H2 *****************************/
+/* H2 
+For Header 2,
+Set font color
+Set font family
+*****************************/
 h2 {
     color: hsl(14, 45%, 36%);
     font-family: "Young Serif", serif;
 }
 
-/* UL, OL, LI *****************************/
+/* UL, OL, LI 
+For lists and their items,
+Set line height
+*****************************/
 ul, ol, li {
-    list-style-position: outside;
     line-height: 30px;
-    font-size: 16px;
-    justify-items: normal;
 }
 
-/* OL *****************************/
+/* OL 
+For ordered list (Instructions)
+Set color (marker color)
+Set font weight (marker weight)
+*****************************/
 ol {
     color: hsl(14, 45%, 36%);
     font-weight: 600;
 }
 
 /* LI 
-Makes markers match color of parent
+For list items,
+Set color and weight to inherit from parent
+Translate left to align correctly based on preview jpg
 *****************************/
 li {
     color: inherit;
     font-weight: inherit;
+    transform: translate(-12px, 0px);
 }
 
-/* HR *****************************/
+/* HR 
+Set width
+*****************************/
 hr {
     width: 102%;
-    text-align: center;
-    color: hsl(30, 18%, 87%);
-    background-color: hsl(30, 18%, 87%);
 }
 
-/* .CARD *****************************/
+/* .CARD 
+Set background color
+Set margins (top 100px, l/r 20%, bottom 80px)
+Height and width to fit remaining space
+Set border and radius (curved corners)
+Set padding (top .8rem, l/r .8rem, bottom 1.2rem)
+*****************************/
 .card {
     background-color: white;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 100px;
-    margin-bottom: 80px;
+    margin: 100px 20% 80px;
     height: auto;
     width: auto;
     min-width: 300px;
     max-width: 3000px;
-    text-align: left;
     border: white solid 1rem;
     border-radius: 1rem;
-    padding: 1.5rem;
+    padding: .8rem .8rem 1.2rem;
 }
 
-/* .IMG-HEAD *****************************/
+/* .IMG-HEAD 
+Set width and height to fill space (responsive)
+Set border raadius for curved corners
+*****************************/
 .img-head {
     width: 100%;
     height: auto;
-    border-radius: 15px;
+    border-radius: 10px;
 }
-/* .PREP-DIV ++git 
-dots further to left
-dots smaller
-sizing of box bg
+/* .PREP-DIV
+For Prepration time box,
+Set background color,
+Set height and width (fill width and auto height)
+Set font color (for title and markers)
+Border radius for curved corners
+Padding (top 25, l/r 25, bottom 10)
+++ dots smaller?? Adjusts with font size
 increased spacing between bullets *****************************/
 .prep-div {
     background-color: hsl(330, 100%, 98%);
     height: 100%;
     width: fill;
-    border-radius: 15px;
     color: hsl(332, 51%, 32%);
-    padding: 25px 25px 10px 25px;
+    border-radius: 10px;
+    padding: 25px 25px 10px;
 }
 
 /* .PREP-P 
-Formatting for Preparation time header
+For Preparation Time formatting (p element),
+Set text weight/size
 *****************************/
 .prep-p {
     font-weight: 700;
@@ -108,63 +131,75 @@ Formatting for Preparation time header
 }
 
 /* .LI-THIN 
-Sets unbold parts of Instructions
+For instructions, set item text weight to be thinner than marker text
 *****************************/
 .li-thin {
     font-weight: 400;
 }
 
-/* .LI-BOLD 
-Sets bold words within Preparation time
-*****************************/
-.li-bold {
-    font-weight: 600;
-}
 
-/* .BLACK 
-Sets color back to default text color ++ change name
+/* .DEF 
+For list items,
+Set text color back to default text color and size
 *****************************/
-.black {
+.def {
     color: hsl(30, 10%, 34%);
+    transform: translate(18px, 0px);
+    font-size: 16px;
 }
 
 /* .ING-LIST 
-Sets marker color
+For Ingredient list,
+Set marker color
 *****************************/
 #ing-list {
     color: hsl(14, 45%, 36%);
 }
 
-/* .TABLE *****************************/
+/* .TABLE 
+For table,
+Set padding and line height
+*****************************/
 .table {
     padding-bottom: 40px;
     line-height: 40px;
 }
 
-/* .NUTRITION *****************************/
+/* .NUTRITION 
+For column 1, set margin/float/width
+*****************************/
 .nutrition {
     margin-left: 4%;
     float: left;
     width: 50%;
 }
 
-/* .AMOUNT *****************************/
+/* .AMOUNT 
+For column 2, set float/width
+Set text color
+*****************************/
 .amount {
     float: left;
     width: auto;
     color: hsl(14, 45%, 36%);
-    font-weight: 600;
 }
 
-/* .ATTRIBUTION *****************************/
-/*++ adjust attribution styles*/
+/* .ATTRIBUTION 
+For attribution,
+Set font size
+Align center
+Padding 30px
+*****************************/
 .attribution { 
-    font-size: 11px; 
-    font-display: block;
+    font-size: 12.5px; 
     text-align: center;
     padding: 30px;
 }
 
+/* .ATTRIBUTION A
+For attribution links,
+Set font color for theme
+*****************************/
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(14, 45%, 36%); 
 }
