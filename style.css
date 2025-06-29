@@ -6,7 +6,7 @@ Set default font family and font weight
 body {
     color: hsl(30, 10%, 34%);
     background-color: hsl(30, 18%, 87%);
-    font-family: Outfit, sans-serif;
+    font-family: "Outfit", sans-serif;
     font-weight: 400;
 }
 /* P 
@@ -22,11 +22,13 @@ For Header 1,
 Set font color
 Set font family
 Set font weight
+Set line height
 *****************************/
 h1 {
     color: hsl(24, 5%, 18%);
     font-family: "Young Serif", serif;
     font-weight: 400;
+    padding-bottom: 1px;
 }
 
 /* H2 
@@ -110,8 +112,10 @@ Set height and width (fill width and auto height)
 Set font color (for title and markers)
 Border radius for curved corners
 Padding (top 25, l/r 25, bottom 10)
-++ dots smaller?? Adjusts with font size
-increased spacing between bullets *****************************/
+Top margin
+INCOMPLETE: markers on ordered lists smaller, can adjust with font size
+increased spacing between markers and text 
+*****************************/
 .prep-div {
     background-color: hsl(330, 100%, 98%);
     height: 100%;
@@ -119,6 +123,7 @@ increased spacing between bullets *****************************/
     color: hsl(332, 51%, 32%);
     border-radius: 10px;
     padding: 25px 25px 10px;
+    margin-top: 25px;
 }
 
 /* .PREP-P 
